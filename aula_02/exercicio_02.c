@@ -5,7 +5,7 @@
 int main() {
     double salario_bruto;
     printf("Salário bruto: ");
-    scanf("%f", &salario_bruto);
+    scanf("%lf", &salario_bruto);
     double imposto;
     if (salario_bruto <= 2000.00) {
         imposto = 0.0;
@@ -18,5 +18,8 @@ int main() {
     } else {
         imposto = salario_bruto * 0.275;
     }
-    return 0
+    double salario_liquido = salario_bruto - imposto;
+    printf("Imposto: %.2f\n", imposto);
+    printf("Salario Liquido: %.2f\n", salario_liquido);
+    return 0;
 }
