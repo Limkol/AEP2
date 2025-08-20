@@ -1,2 +1,2 @@
 # AEP2
-Repositório aula 1
+Repositório das aulas
