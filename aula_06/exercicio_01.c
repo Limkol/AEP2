@@ -26,7 +26,7 @@ int main () {
     }
     printf("*********\n");
 
-    ///fgets(nome, COLUNAS, stdin);
+    fgets(nome, COLUNAS, stdin);
     printf("Nome a ser buscado: %s\n", nome);
 
     int pos = busca_nome(LINHAS, COLUNAS, lista_nomes, nome);
